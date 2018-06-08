@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ header{
+ 	color:white;
+ 	background-color:black;
+ 	width:100%;
+ 	display:flex;
+ }
+ #titulo ul li{
+ 	list-style: none;
+ 	padding: 15px 15px;
+ }
+
+ #menu1 ul {
+ 	padding-left:124%;
+ 	display: flex;
+
+ }
+ #menu1 ul li{
+ 	list-style: none;
+ 	padding: 15px 18px;
+ }
+
+ #l1:hover{
+ 	cursor: pointer;
+ 	color:#00ECFF;
+
+ }
+ #l2:hover{
+ 	cursor: pointer;
+ 	color:#FFF700;
+
+ }
+ #l3:hover{
+ 	cursor: pointer;
+ 	color:#FF0074;
+
+ }
+ #l4:hover{
+ 	cursor: pointer;
+ 	color:#008BFF;
+
+ }
+  #boton:hover{
+ 	cursor: pointer;
+ 	color:#9EFF00;
+
+ }
+
+#slider{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+ #slider ul{
+ 	display: flex;
+ 	padding: 0;
+ 	width: 500%;
+
+ 	animation: cambio 20s infinite alternate;
+ }
+ #slider li{
+ 	width: 100%;
+ 	list-style: none;
+ }
+ #slider img{
+ 	width: 100%;
+ 	height:600px;
+ }
+ @keyframes cambio{
+	0%{margin-left: 0%;}
+	20%{margin-left: 0;}
+
+	30%{margin-left: -100%;}
+	40%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	60%{margin-left: -200%;}
+
+	70%{margin-left: -300%;}
+	80%{margin-left: -300%;}
+
+	90%{margin-left: -400%;}
+	100%{margin-left: -400%;}
+}
+ 
+#cer{
+	list-style: none;
+	font-size: 25px;
+	color: white;
+	margin-left: 93%;
+	
+
+}
+#cer:hover{
+	cursor: pointer;
+	color:cyan;
+}
+
+
+
+#fondo{
+	display: none;
+	height: 100%;
+	width: 100%;
+	background: -webkit-linear-gradient(-45deg, rgba(38, 170, 228) 0%,rgba(0,0,0,0.45) 100%); 
+    position: fixed;
+
+}
+form{
+	
+	width: 400px;
+	height: 500px;
+	background: -webkit-linear-gradient(60deg, rgba(0, 0, 0.13) 0%,rgba(0,0,0,0.0) 100%); 
+	margin: auto;
+	margin-top: 100px;
+	text-align: center;
+
+}
+#sig{
+	list-style: none;
+}
+#img{
+	width: 100px;
+	background-color: black;
+	border-radius: 200px;
+}
+#lbl-registro{
+	font-size: 24px;
+	font-family: arial;
+	color:cyan;
+}
+#nombre{
+	background: -webkit-linear-gradient(-45deg, rgba(38, 170, 228) 0%,rgba(0,0,0,0.45) 100%); 
+	width: 90%;
+	height: 25px;
+	text-indent: 20px;
+	font-size: 16px;
+}#nombre:hover{
+	background:#7FCFF3; 
+}
